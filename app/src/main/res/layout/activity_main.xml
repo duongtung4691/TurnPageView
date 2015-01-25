@@ -5,6 +5,11 @@
                 tools:context=".MainActivity">
 
     <demo.binea.com.turnpageview.widget.TurnPageView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <demo.binea.com.turnpageview.widget.FoldView
         android:id="@+id/trun_page"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
