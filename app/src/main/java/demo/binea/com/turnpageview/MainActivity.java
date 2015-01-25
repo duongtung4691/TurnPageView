@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 import java.util.ArrayList;
 import java.util.List;
 
+import demo.binea.com.turnpageview.widget.CustomImageView;
 import demo.binea.com.turnpageview.widget.FoldView;
 
 
@@ -30,5 +31,8 @@ public class MainActivity extends ActionBarActivity {
 		turnPageView = (FoldView) findViewById(R.id.trun_page);
 
 		turnPageView.setBitmaps(bitmapList);
+
+		CustomImageView custom_image_view = (CustomImageView) findViewById(R.id.custom_image_view);
+		custom_image_view.setmBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.nick1));
 	}
 }
